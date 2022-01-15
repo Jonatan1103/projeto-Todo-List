@@ -1,0 +1,30 @@
+.container {
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: hsl(0, 0%, 20%);
+  max-width: 400px;
+}
+
+h1.mb-4 {
+  background-color: blueviolet;
+  border-radius:5px;
+  color:white;
+  padding:20px;
+}
+
+
+.delete {
+  cursor: pointer;
+}
+
+.hidden {
+  display:none;
+}
+
+i[data-delete] {
+  cursor: pointer;
+  color: rgba(109, 0, 199, 0.425);
+}
